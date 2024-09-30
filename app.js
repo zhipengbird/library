@@ -18,8 +18,6 @@ var app = express();
 //连接数据库
 
 const mongoose = require('mongoose');
-// const uri = "mongodb+srv://cooluser:coolpassword@cluster0.cojoign.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0";
-const uri = "mongodb+srv://yuanpinghua:9sZSez3xxX9xDlEi@course.hlmn8hk.mongodb.net/library?retryWrites=true&w=majority&appName=course";
 
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
 
