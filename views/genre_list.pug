@@ -1,0 +1,10 @@
+extends layout
+block content
+  h1.title Genres
+  if !genre_list.length
+    p No genres found.
+  else
+    ul
+      each genre in genre_list
+        li
+          a(href=genre.url) #{genre.name}
